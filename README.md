@@ -7,7 +7,7 @@ Se han eliminado las dependencias externas que ralentizaban la carga:
         
           Bootstrap (JS): Se eliminó el script de Bootstrap ya que las funciones interactivas no eran necesarias para esta estructura.
 
-La imagen de fondo de Unsplash se ha configurado con parámetros inteligentes directamente en la URL:
+La imagen de fondo de Unsplash se ha configurado con parámetros directamente en la URL:
 
           q=75: Reduce la calidad al 75%.
         

@@ -58,5 +58,5 @@ body {
   color: white;              
   text-align: center;         
   padding: 15px;
-  width: 100%; /* Movido del inline al archivo CSS */
+  width: 100%; 
 }

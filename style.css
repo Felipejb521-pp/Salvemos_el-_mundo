@@ -45,7 +45,7 @@ body {
   border-radius: 50px;
   box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
   cursor: pointer;
-  transition: transform 0.2s ease; /* Pequeño añadido para mejorar la interacción */
+  transition: transform 0.2s ease; 
 }
 
 .btn-eco-redundante:hover {

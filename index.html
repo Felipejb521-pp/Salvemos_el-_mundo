@@ -5,13 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Salvemos el Planeta - GreenTech</title>
 
-    <!--elimino enlaces a bootstrap y fontawesome(obligan al navegador a descargar archivos muy grandes)-->
-    <!---->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
       rel="stylesheet"
     />
-
 
     <style>
       body {
@@ -25,7 +22,7 @@
         background-size: cover;
         background-position: center;
         height: 100vh;
-         color: white;
+        color: white;
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
         display: flex;
         flex-direction: column;
@@ -49,46 +46,34 @@
       .footer-estilo {
         background-color: #212529; 
         color: white;              
-        text-align: center;       
+        text-align: center;        
         padding: 15px;          
       }
       .btn-eco-redundante {
         background-color: #28a745 ;
-        border-color: #1e7e34 ;
+        border: none;
+        color: white;
         padding: 15px 40px;
         font-size: 1.5rem;
         border-radius: 50px;
         box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
     <div class="hero-gigante">
-      <h1 >Salvemos el Planeta</h1>
-    <!--cambio de nombre de la clase-->
+      <h1>Salvemos el Planeta</h1>
       <p class="texto-subtitulo">Únete a la revolución verde de GreenTech.</p>
 
-    <!--cambio de nombre de la clase-->
       <button class="btn-eco-redundante">
-        <!--sustituyo fa-solid(icono de fontawesome) con &#127811;(texto plano)-->
         <i class="icon-leaf">&#127811;</i> Quiero ayudar
       </button>
     </div>
 
+    <footer class="footer-estilo" style="width: 100%;">
+      GreenTech Solutions &copy; 2026 - Haciendo un mundo mejor
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-   <!--elimino .js de bootstrap-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        const anioActual = moment().format("YYYY");
-        $("body").append(
-    /*cambio de nombre de la clase*/
-          '<footer class="footer-estilo" style="width: 100%;">GreenTech Solutions &copy; ' +
-            anioActual +
-            " - Haciendo un mundo mejor (pero calentando tu CPU)</footer>",
-        );
-      });
-    </script>
-  </body>
+    </body>
 </html>
